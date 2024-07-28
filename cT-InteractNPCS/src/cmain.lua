@@ -59,7 +59,7 @@ CreateThread(function()
                         {
                             title = "Que te siga",
                             description = getDataFromPedArray(entity, 'following') and "Dejar de seguir" or "Hacer que este ped te siga",
-                            icon = "fa-solid fa-person-walking-arrow-right",
+                            icon = "fa-solid fa-person-running",
                             closeClick = true,
                             params = {
                                 handler = function()
